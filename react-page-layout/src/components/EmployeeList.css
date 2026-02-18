@@ -1,0 +1,53 @@
+.employee {
+
+display: flex;
+
+align-items: center;
+
+padding: 10px;
+
+border-bottom: 1px solid #ddd;
+
+background: white;
+
+}
+
+.employee img {
+
+width: 40px;
+
+height: 40px;
+
+border-radius: 50%;
+
+margin-right: 10px;
+
+}
+
+.name {
+
+font-weight: bold;
+
+}
+
+.title {
+
+color: gray;
+
+font-size: 14px;
+
+}
+
+.directory {
+
+width: 300px;
+
+border-radius: 10px;
+
+overflow: hidden;
+
+border: 1px solid #ccc;
+
+background: white;
+
+}
