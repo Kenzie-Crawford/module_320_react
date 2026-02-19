@@ -26,38 +26,25 @@ title: "CFO",
 ];
 
 function EmployeeList() {
+    const employeeList=["James King", "Julie Taylor", "Eugene Lee",
+        "John Williams", "Ray Moore", "Paul Jones"
+     ]
 
-return (
 
-<div>
+     return (
+        <>
+        <div>
+        <h2>Employee List</h2>
+        
 
-{employees.map((emp, index) => (
-
-<div className="list-item" key={index}>
-
-<img src={emp.picture} />
-
-<div>
-
-<div className="name">
-{emp.firstName} {emp.lastName}
-</div>
-
-<div className="title">
-{emp.title}
-</div>
-
-</div>
-
-</div>
-
-))}
-
-</div>
-
-);
-
-}
+        <ul>
+            {employeeList.map((employee, index)=> <li key={index}>{employee}</li>)}
+        </ul>
+        </div>
+        </>
+        
+    );
+    }
 
 export default EmployeeList;
 
