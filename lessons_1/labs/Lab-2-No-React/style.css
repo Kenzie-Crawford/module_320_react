@@ -5,12 +5,6 @@ body {
   min-height: 100vh;
   max-width: 1000px;
   
-
-
-}
-
-.header, .main, .footer {
-    margin-left: 20px;
 }
 
 .header-nav {
@@ -35,9 +29,6 @@ html {
    
 }
 
-
-
-
 .header-title {
     font-size: 64px;
     color:#d84a43;
@@ -53,7 +44,6 @@ html {
 }
 
 .header-nav-link {
-  margin-right: 25px;
   font-size: 18px;
   color: #999;
   text-decoration: underline;
@@ -64,14 +54,6 @@ html {
   color: #d84a43;
 
 }
-
-.blog-container {
-  max-width: 700px;
-
-}
-
-
-
 
 
 .blog-post {
@@ -104,28 +86,10 @@ html {
 
 }
 
-
-
-
-
-.blog-post-image {
-  width: 100%;
-  margin-bottom: 20px;
-
-}
-
-
-
-
-
 .blog-post-content {
   line-height: 1.6;
 
 }
-
-
-
-
 
 .blog-post-content::first-letter {
   font-size: 90px;
@@ -136,10 +100,6 @@ html {
   color: #ccc;
 
 }
-
-
-
-
 
 .blog-post-link {
   color: #d84a43;
@@ -158,9 +118,6 @@ html {
 }
 
 
-
-
-
 .footer-container {
   margin-top: 60px;
   padding-bottom: 40px;
@@ -171,7 +128,6 @@ html {
 
 .footer-nav-link {
   margin-right: 20px;
-  color: #999;
   text-decoration: underline;
 
 }
@@ -188,12 +144,6 @@ html {
 .footer-copyright {
   margin-top: 20px;
   color: #999;
-
-}
-
-.header-nav a {
-
-  color: lightgray;
 
 }
 
