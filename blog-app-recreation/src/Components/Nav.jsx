@@ -11,7 +11,7 @@ function Nav({ links, className }) {
         {links.map((link, index) => (
 
           <li key={index}>
-            <a href="#">{link}</a>
+            <a href="#" className="header-nav-link">{link}</a>
           </li>
 
         ))}

@@ -15,7 +15,7 @@ function Header() {
 
     <header>
 
-      <h1>Sartre's List</h1>
+      <h1 className="header-title">Sartre's List</h1>
 
       <Nav
         links={headerLinks}
