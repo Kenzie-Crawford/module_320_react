@@ -15,7 +15,7 @@ export default function App() {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <h1>Star Wars Starships</h1>
       {starships.map((ship,index) => (
         <StarshipCard key={index} starship={ship} />
