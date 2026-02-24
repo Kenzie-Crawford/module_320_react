@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 
 function ToDoForm({addToDo}) {
-    const [{input, setInput}] = useState('');
+    const [input, setInput] = useState('');
 
     function handleSubmit(e) {
         e.preventDefault();
